@@ -3,9 +3,11 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Support\Facades\Schema as FacadesSchema;
-use Laravel\Jetstream\InertiaManager;
-use Inertia\Inertia;
+use Illuminate\Support\Facades\Schema;
+
+//use Illuminate\Support\Facades\Schema as FacadesSchema;
+//use Laravel\Jetstream\InertiaManager;
+//use Inertia\Inertia;
 
 
 class AppServiceProvider extends ServiceProvider
@@ -28,6 +30,8 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         // 
-         FacadesSchema::defaultStringLength(191);   
+         Schema::defaultStringLength(191);   
     }
+
+    
 }
