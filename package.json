@@ -25,5 +25,8 @@
         "postcss": "^8.4.14",
         "tailwindcss": "^3.1.0",
         "vue": "^3.2.31"
+    },
+    "dependencies": {
+        "vite": "^4.0.4"
     }
 }
